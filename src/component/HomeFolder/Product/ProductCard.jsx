@@ -70,7 +70,7 @@ const ProductCard = () => {
                     <div className=" mt-3 sm:pb-3 items-center">
                       <button
                         onClick={() => AddToCart(products)}
-                        className="   sm:mt-2 rounded border border-green-600 bg-green-700 text-white xxs:px-2 xxs:py-2 md:px-10 ss:py-2 "
+                        className="   sm:mt-2 rounded border border-green-600 bg-green-700 text-white font-jose font-semibold xxs:px-3 xxs:py-2 md:px-10 ss:py-2 "
                       >
                         Add to cart
                       </button>
