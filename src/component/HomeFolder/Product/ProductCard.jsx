@@ -59,15 +59,15 @@ const ProductCard = () => {
                         {products.name}
                       </h2>
                       <hr className="border-t-1 border-green-600 my-2" />
-                      <h6 className=" font-normal  text-gray-500 xxs:text-xs sm:text-xs  md:text-sm  sm:text-right">
+                      <h6 className=" font-normal mt-2  text-gray-500 xxs:text-xs sm:text-xs  md:text-sm  sm:text-right">
                         {products.features}
                       </h6>
-                      <p className="mt-2 font-roboto font-bold text-sm sm:text-right">
+                      <p className="mt-3 font-roboto font-bold text-sm sm:text-right">
                         $ {products.price}
                       </p>
                     </div>
 
-                    <div className="  sm:pb-3 items-center">
+                    <div className=" mt-3 sm:pb-3 items-center">
                       <button
                         onClick={() => AddToCart(products)}
                         className="   sm:mt-2 rounded border border-green-600 bg-green-700 text-white xxs:px-2 xxs:py-2 md:px-10 ss:py-2 "
