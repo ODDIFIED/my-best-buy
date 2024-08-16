@@ -34,22 +34,13 @@ const ProductDetails = () => {
   }
 
   return (
-    <div className=" dark:bg-gray-900 dark:text-white ">
-      <Navbar />
-      <div className="sm:mt-10 xxs:mt-5   xxs:h-[102vh] sm:[100vh] ">
-        <h2 className=" text-center font-jose text-green-600  pb-3 font-bold">
-          Product details
-        </h2>
-        <div className="  xxs:px-5 sm:px-16 text-green-700 ">
-          <Link to={'/'}>
-          <div className=" flex justify-start gap-2 font-semibold place-items-center">
-          <FaArrowLeft /> <span>Continue Shopping</span>
-          </div>
-          </Link>
+    <div className=" absolute   dark:bg-gray-900 dark:text-white ">
+      <div className="absolute">
+          <Navbar/>
         </div>
+      <div className="sm:mt-92 xxs:mt-5  relative xxs:h-[102vh] sm:h-[100vh] ">
         
-        
-        <PcardDetails item={item} />
+         <PcardDetails item={item} />
       </div>
     </div>
   );

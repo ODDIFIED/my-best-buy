@@ -36,9 +36,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" mx-auto dark:bg-gray-900 dark:text-white duration-200 relative z-40 dark:border dark:border-green-600 dark:border-b-1 dark:border-t-0 dark:border-x-0">
-      <div className=" sm:flex sn:justify-between sm:items-center xxs:hidden sm:px-10 md:px-10 py-3">
-        <div className=" w-50% container flex justify-start items-center ">
+    <div className="  dark:bg-gray-900  dark:text-white duration-200 w-full fixed z-40 dark:border  dark:border-green-600 dark:border-b-1 dark:border-t-0 dark:border-x-0">
+      <div className=" bg-gray-100 dark:bg-gray-900 sm:flex sm:justify-between sm:items-center xxs:hidden sm:px-10 md:px-10 py-3">
+        <div className=" w-full container flex justify-start items-center ">
           {/* left side */}
           <div>
             <Link to={"/"}>
@@ -86,7 +86,7 @@ const Navbar = () => {
       </div>
 
       {/* mobile view */}
-      <div className="w-full max-w-full  dark:bg-gray-900 dark:text-white  duration-200 relative">
+      <div className="w-full max-w-full z-40 bg-slate-50  dark:bg-gray-900 dark:text-white  duration-200 relative">
         <div className="  xxs:flex sm:hidden  py-3 xxs:px-5 sm:px-10">
           <div className=" container flex justify-between items-center ">
             {/* left side */}
@@ -128,7 +128,7 @@ const Navbar = () => {
           <div
             className={
               nav
-                ? "absolute xxs:w-full  xxs:h-[113vh]  bg-gray-300 border-r-0 dark:bg-gray-900 dark:border dark:border-t-4 dark:border-green-700  xxs:top-14 xxs:right-0 xxs:left-0 xxs:bottom-0    ease-in-out  duration-500 -z-40  "
+                ? "absolute xxs:w-full  xxs:h-[113vh]  bg-gray-300 border-r-0 dark:bg-gray-900 dark:border dark:border-t-4 dark:border-green-700  xxs:top-14 xxs:right-0 xxs:left-0 xxs:bottom-0    ease-in-out  duration-500   "
                 : "hidden"
             }
           >

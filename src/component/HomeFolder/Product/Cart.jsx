@@ -13,13 +13,13 @@ const Cart = () => {
     const { removeFromCart  } = useContext(ElectContext);
   
   return (
-    <div className=" mx-auto dark:bg-gray-900 dark:text-white duration-200 relative z-40 dark:border dark:border-green-600 dark:border-b-1 dark:border-t-0 dark:border-x-0">
+    <div className=" mx-auto dark:bg-gray-900 dark:text-white duration-200 absolute z-40 dark:border dark:border-green-600 dark:border-b-1 dark:border-t-0 dark:border-x-0">
       <div>
         <Navbar />
       </div>
 
-      <div className=" mt-5 dark:text-green-700 xxs:h-[100vh] sm:h-[105vh] md:h-[90vh]">
-        <div className="px-10 text-center">
+      <div className=" mt-24   dark:text-green-700 xxs:h-[100vh] sm:h-[105vh] md:h-[90vh]">
+        <div className="px-10 mx-10 text-center">
           <p>Shopping cart</p>
           <p>You have {addedToCart.length} item(s) in your cart </p>
         </div>
