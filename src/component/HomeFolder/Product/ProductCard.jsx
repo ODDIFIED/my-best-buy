@@ -17,7 +17,7 @@ const ProductCard = () => {
 
   return (
     <div>
-      <div className=" w-full max-w-screen-xl   dark:bg-gray-900 dark:text-white  pt-5 text-center md:px-10  mx-auto" id="shop">
+      <div className="  dark:bg-gray-900 dark:text-white  pt-5 text-center md:px-10  mx-auto" id="shop">
         <h1 className="font-jose text-green-600  pb-5 font-bold">Products</h1>
         <div className="">
           <div className=" dark:border dark:border-green-600  dark:bg-gray-900 dark:text-white bg-gray-200 rounded-xl  p-3  xxs:flex xxs:flex-wrap xxs:gap-2 xxs:justify-evenly sm:gap-0    ">
