@@ -16,7 +16,6 @@ const ProductCard = () => {
   };
 
   return (
-    <div>
       <div className="  dark:bg-gray-900 dark:text-white  pt-5 text-center md:px-10  mx-auto" id="shop">
         <h1 className="font-jose text-green-600  pb-5 font-bold">Products</h1>
         <div className="">
@@ -83,7 +82,6 @@ const ProductCard = () => {
         
         </div>
       </div>
-    </div>
   );
 };
 

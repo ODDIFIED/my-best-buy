@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className=" xl:w-[1500px]">
       <div class="  sm:px-10 py-10 mx-auto  bg-gray-200   dark:bg-gray-900 dark:text-white ">
         <div className=" mt-20  w-full sm:flex sm:flex-row sm:justify-between xxs:items-center sm:gap-10 xxs:flex-col ">
           <motion.div
@@ -34,7 +33,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
