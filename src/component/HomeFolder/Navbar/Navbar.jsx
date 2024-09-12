@@ -139,7 +139,7 @@ const Navbar = () => {
                     className=" text-2xl text-center mt-16 dark:text-green-700  xxs:text-center sm:text-right "
                     key={index}
                   >
-                    <Link to={data.link}>{data.name}</Link>
+                    <Link onClick={handleaNav} to={data.link}>{data.name}</Link>
                   </div>
                 );
               })}
