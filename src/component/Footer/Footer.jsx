@@ -10,7 +10,7 @@ import { GrFacebookOption } from "react-icons/gr";
 
 const Footer = () => {
   return (
-      <footer className=" border border-black w-full  mx-auto px-10 pt-12 pb-3 bg-green-700 text-sm text-white dark:border dark:border-green-600 dark:border-b-1 dark:border-t-0 dark:border-x-0">
+      <footer className=" border border-red-600 w-full  mx-auto px-10 lg:px-20 xl:px-32 pt-12 pb-3 bg-green-700 text-sm text-white dark:border dark:border-green-600 dark:border-b-1 dark:border-t-0 dark:border-x-0">
         <div className=" xxs:flex xxs:flex-col  sm:flex sm:flex-row gap-6 ">
           {/* first grid */}
           <div className="sm:w-[50%]">
