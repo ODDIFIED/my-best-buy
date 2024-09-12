@@ -30,7 +30,7 @@ export default {
       sm: "500px",
       md: "1060px",
       lg: "1200px",
-      xl: "1700px",
+      xl: "2000px",
     },
 },
   plugins: [],
