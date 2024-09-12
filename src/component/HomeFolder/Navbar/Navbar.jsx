@@ -36,7 +36,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="  dark:bg-gray-900  dark:text-white duration-200 w-full fixed z-40 dark:border  dark:border-green-600 dark:border-b-1 dark:border-t-0 dark:border-x-0">
+    <div className="  dark:bg-gray-900  dark:text-white duration-200 w-full container fixed z-40 dark:border  dark:border-green-600 dark:border-b-1 dark:border-t-0 dark:border-x-0">
       <div className=" bg-gray-100 dark:bg-gray-900 sm:flex sm:justify-between sm:items-center xxs:hidden sm:px-10 md:px-10 py-3">
         <div className=" w-full container flex justify-start items-center ">
           {/* left side */}
