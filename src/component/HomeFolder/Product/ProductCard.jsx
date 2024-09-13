@@ -16,9 +16,8 @@ const ProductCard = () => {
   };
 
   return (
-      <div className=" w-full dark:bg-gray-900 dark:text-white  pt-5 text-center md:px-10  mx-auto" id="shop">
+      <div className=" xxs:w-full  xxs:max-w-full xxs:mx-auto dark:bg-gray-900 dark:text-white  pt-5 text-center md:px-10  mx-auto" id="shop">
         <h1 className="font-jose text-green-600  pb-5 font-bold">Products</h1>
-        <div className="">
           <div className=" dark:border dark:border-green-600  dark:bg-gray-900 dark:text-white bg-gray-200 rounded-xl  p-3  xxs:flex xxs:flex-wrap xxs:gap-2 xxs:justify-evenly sm:gap-0    ">
             {ProductAPI.map((item) => {
               return (
@@ -34,7 +33,6 @@ const ProductCard = () => {
               );
             })}
           </div>
-        </div>
         <div  className="mt-3">
           <motion.div className=" place-items-center xxs:grid xxs:grid-cols-1 xs:grid-cols-2  sm:grid-cols-3   ">
             {ProductAPI.map((items) =>

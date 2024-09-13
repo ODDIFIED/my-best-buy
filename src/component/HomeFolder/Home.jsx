@@ -7,13 +7,13 @@ import Footer from '../Footer/Footer'
 
 export const Home = () => {
   return (
-    <>
+    <div >
       <Navbar/>
       <Hero/>
       <ProductCard/>
       <Blog/>
       <Footer/>
-    </>
+    </div>
   )
 }
 export default Home
